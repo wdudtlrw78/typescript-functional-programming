@@ -1,0 +1,22 @@
+{
+  "name": "typescript_functional_programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdudtlrw78/typescript-functional-programming.git"
+  },
+  "author": "molymath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdudtlrw78/typescript-functional-programming/issues"
+  },
+  "homepage": "https://github.com/wdudtlrw78/typescript-functional-programming#readme",
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
