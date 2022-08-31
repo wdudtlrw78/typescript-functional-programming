@@ -9,13 +9,13 @@ const list = () => {
             html += "<li class='gray'>";
             html += `<h2>${cart[i].name} (품절)</h2>`
             html += `<div class="strike">가격: ${cart[i].price}원</div>`
-            html += `<div class="strike">수량: ${cart[i].quantity}원</div>`
+            html += `<div class="strike">수량: ${cart[i].quantity}개</div>`
             html += "</li>"
         } else {
             html += "<li>";
             html += `<h2>${cart[i].name}</h2>`
             html += `<div>가격: ${cart[i].price}원</div>`
-            html += `<div>수량: ${cart[i].quantity}원</div>`
+            html += `<div>수량: ${cart[i].quantity}개</div>`
             html += "</li>"
         }
     }
